@@ -36,26 +36,26 @@ cursor: auto;
 }
 
 .navbar-default {
-background-color:  #ffefe5;
+background-color:  #2a2220;
   border: none;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #fb036b;
+  color: #ed1556;
 }
 .navbar-default .navbar-brand {
-  color:#fb036b;
+  color:#ed1556;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
 {
   color:#ffefe5;
-  background-color: #fb036b;
+  background-color: #ed1556;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
   color:#ffefe5;
-  background-color: #fc78a8;
+  background-color: #5515ed;
 }
 .pattern {
   background-image: url('/img/pback.jpg');
@@ -213,21 +213,53 @@ border-radius: 6px;
 color: #222;
 }
 
+#gail1 {
+  background-image: url('/img/gail1.jpg');
+  background-attachment: fixed;
+           background-color:rgba(85,21,237,0.5);
 
+
+
+}
+#gail2 {
+  background-image: url('/img/gail2.jpg');
+  background-attachment: fixed;
+
+}
+
+#gail3 {
+
+  background-image: url('/img/gail3.jpg');
+  background-attachment: fixed;
+
+
+}
 /* container and font styling */
 
-.white {
-     background-color: #ffefe5;
-     color: #222;
+.dark {
+     background-color: #2a2220;
+     color: #ffefe5;
 }
+
+.white { 
+    background-color: #ffefe5;
+    }
 
 .black {
      background-color: #222;
      color: #222;
 }
 
-.seafoam {
-         background-color:rgba(251,3,107,1);
+.purple {
+  background-color: #5515ed;
+}
+
+.pink {
+  background-color: #fc78a7;
+}
+
+.plum {
+         background-color:rgba(85,21,237,0.5);
 }
 
 .yellow {
@@ -238,29 +270,36 @@ color: #222;
 
 }
 
+.dark-font {
+
+     color: #2a2220;
+}
 
 .black-font {
   color: #000;
 }
 .pink {
-background-color: #fb036b;
+background-color: #ed1556;
 }
 .pink-font {
-  color:#ff0056;
+  color:#ed1556;
 }
+
+.plum-font {
+  color: #781aa3;
+}
+
 .blue-font {
   color: #5A26FF;
 }
 .purple-font {
-  color: #fc78a7;
+  color: #5515ed;
 }
 
 .black-font {
   color: #222;
 }
-.purple {
-  background-color: #fc78a7;
-}
+
 .red {
   background-color: #fe0427;
 }
