@@ -216,7 +216,6 @@ color: #222;
 #gail1 {
   background-image: url('/img/gail1.jpg');
   background-attachment: fixed;
-           background-color:rgba(85,21,237,0.5);
 
 
 
@@ -521,6 +520,28 @@ li {
 /* mobile */
 
 @media only screen and (max-width: 767px) {
+
+  #gail1 {
+  background-image: url('/img/gail1m.jpg');
+  background-attachment: fixed;
+  
+
+
+}
+#gail2 {
+  background-image: url('/img/gail2m.jpg');
+  background-attachment: fixed;
+
+}
+
+#gail3 {
+
+  background-image: url('/img/gail3m.jpg');
+  background-attachment: fixed;
+
+
+}
+
 .sux {
   font-size: 18px;
   font-weight: 200;
