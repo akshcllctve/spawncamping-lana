@@ -1,7 +1,5 @@
 body {
-  background-image: url('/img/pback.jpg');
-  background-attachment: fixed;
-    background-size: cover;
+
   padding-top: 0px;
   color: #ffefe5;
 
@@ -333,7 +331,7 @@ h5,
 
 .sux {
   font-size: 35px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .suxy {
