@@ -34,7 +34,7 @@ cursor: auto;
 }
 
 .navbar-default {
-background-color:  #2a2220;
+background-color:  #edc7bd;
   border: none;
 }
 
@@ -211,16 +211,71 @@ border-radius: 6px;
 color: #222;
 }
 
+
+.btn-danger-2 {
+  color: #ffffff;
+  background-color: #ef4278;
+  border-color: #ef4278;
+    margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+    padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 60px
+}
+
+.btn-danger-2:hover,
+.btn-danger-2:focus,
+.btn-danger-2:active,
+.btn-danger-2.active,
+.open .dropdown-toggle.btn-danger-2 {
+  color: #ffffff;
+  background-color: #ef4278;
+  border-color: #ef4278;
+}
+
+.btn-danger-2:active,
+.btn-danger-2.active,
+.open .dropdown-toggle.btn-danger-2 {
+  background-image: none;
+}
+
+.btn-danger-2.disabled,
+.btn-danger-2[disabled],
+fieldset[disabled] .btn-danger-2,
+.btn-danger-2.disabled:hover,
+.btn-danger-2[disabled]:hover,
+fieldset[disabled] .btn-danger-2:hover,
+.btn-danger-2.disabled:focus,
+.btn-danger-2[disabled]:focus,
+fieldset[disabled] .btn-danger-2:focus,
+.btn-danger-2.disabled:active,
+.btn-danger-2[disabled]:active,
+fieldset[disabled] .btn-danger-2:active,
+.btn-danger-2.disabled.active,
+.btn-danger-2[disabled].active,
+fieldset[disabled] .btn-danger-2.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+
 #gail1 {
   background-image: url('/img/gail1.jpg');
   background-attachment: fixed;
-
+  background-size: cover;
+text-shadow: 0px 0px 5px #ef4278;
 
 
 }
 #gail2 {
   background-image: url('/img/gail2.jpg');
   background-attachment: fixed;
+   background-size: cover;
+text-shadow: 0px 0px 5px #1e241c;
 
 }
 
@@ -228,13 +283,14 @@ color: #222;
 
   background-image: url('/img/gail3.jpg');
   background-attachment: fixed;
-
+   background-size: cover;
+text-shadow: 0px 0px 5px #278400;
 
 }
 /* container and font styling */
 
 .dark {
-     background-color: #2a2220;
+     background-color: #edc7bd;
      color: #ffefe5;
 }
 
@@ -248,7 +304,7 @@ color: #222;
 }
 
 .purple {
-  background-color: #5515ed;
+  background-color: #c2b1a9;
 }
 
 .pink {
@@ -269,7 +325,7 @@ color: #222;
 
 .dark-font {
 
-     color: #2a2220;
+     color: #ffefe5;
 }
 
 .black-font {
@@ -421,6 +477,7 @@ font-size: 18px;
 
 .input-field {
  height: 46px;
+ width: 175px;
   padding: 5px 5px 5px 18px;
   margin: 5px;
   font-size: 22px;
@@ -522,6 +579,7 @@ li {
   #gail1 {
   background-image: url('/img/gail1m.jpg');
   background-attachment: fixed;
+   background-size: auto;
   
 
 
@@ -529,6 +587,7 @@ li {
 #gail2 {
   background-image: url('/img/gail2m.jpg');
   background-attachment: fixed;
+   background-size: auto;
 
 }
 
@@ -536,6 +595,7 @@ li {
 
   background-image: url('/img/gail3m.jpg');
   background-attachment: fixed;
+  background-size: auto;
 
 
 }
@@ -620,4 +680,7 @@ width: 100%;
 }
 }
 
+#packages {
+  color: #352323;
+}
 
