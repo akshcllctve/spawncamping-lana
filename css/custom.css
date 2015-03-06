@@ -1,3 +1,5 @@
+
+
 body {
 
   padding-top: 0px;
@@ -263,11 +265,42 @@ fieldset[disabled] .btn-danger-2.active {
 }
 
 
+
+#highlight-plum {
+    display: inline;
+    background: #781aa3;
+    padding: 0.25em;
+      display: inline;
+  background: #781aa3;
+  box-shadow: 10px 0 0 #781aa3, -10px 0 0 #781aa3;
+  }
+
+ 
+  #highlight-green {
+    display: inline;
+    background: #1e241c;
+       padding: 0.25em;
+      display: inline;
+  background: #1e241c;
+  box-shadow: 10px 0 0 #1e241c, -10px 0 0 #1e241c;
+  }
+  #highlight-pink {
+    display: inline;
+    background: #ef4278;
+       padding: 0.25em;
+      display: inline;
+  background: #ef4278;
+  box-shadow: 10px 0 0 #ef4278, -10px 0 0 #ef4278;
+  }
+#ef4278
+ 
+  
+
 #gail1 {
   background-image: url('/img/gail1.jpg');
   background-attachment: fixed;
   background-size: cover;
-text-shadow: 0px 0px 5px #ef4278;
+
 
 
 }
@@ -477,7 +510,7 @@ font-size: 18px;
 
 .input-field {
  height: 46px;
- width: 175px;
+ width: 200px;
   padding: 5px 5px 5px 18px;
   margin: 5px;
   font-size: 22px;
