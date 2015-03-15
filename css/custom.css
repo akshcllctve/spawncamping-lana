@@ -510,7 +510,7 @@ font-size: 18px;
 
 .input-field {
  height: 46px;
- width: 200px;
+ width: 300px;
   padding: 5px 5px 5px 18px;
   margin: 5px;
   font-size: 22px;
@@ -610,25 +610,25 @@ li {
 @media only screen and (max-width: 767px) {
 
   #gail1 {
-  background-image: url('/img/gail1m.jpg');
-  background-attachment: fixed;
-   background-size: auto;
+ 
+  background-attachment: scroll;
+   background-width: cover;
   
 
 
 }
 #gail2 {
-  background-image: url('/img/gail2m.jpg');
-  background-attachment: fixed;
-   background-size: auto;
+  
+  background-attachment: scroll;
+  background-width: cover;
 
 }
 
 #gail3 {
 
-  background-image: url('/img/gail3m.jpg');
-  background-attachment: fixed;
-  background-size: auto;
+ 
+  background-attachment: scroll;
+  background-width: cover;
 
 
 }
@@ -669,7 +669,7 @@ body {
    }
    button.btn {
   display: block;
-width: 100%;
+width: auto;
 }
 
 .container {
